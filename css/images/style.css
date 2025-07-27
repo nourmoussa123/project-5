@@ -1,0 +1,103 @@
+body{
+    background-color: hsl(225, 100%, 94%);
+    background-image:url(pattern-background-desktop.svg) ;
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+
+
+
+    
+    
+}
+.card{
+    width: 450px;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+    border-radius: 50px;
+}
+.card h2 {
+    color: hsl(223, 47%, 23%);
+}
+.card > p{
+    
+    padding:  10px 20px;
+    line-height: 1.8;
+    color: hsl(224, 23%, 55%);
+}
+
+.card > img{
+    border-radius: 50px 50px 0px 0px ;
+}
+.box-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: hsl(225, 100%, 98%);
+width: 80%;
+margin:  20px auto;
+border-radius:10px;
+
+
+}
+.box-1 .col:nth-of-type(1){
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+.box-1 .col:nth-of-type(1) p:nth-of-type(1){
+    font-weight: bold;
+    color: hsl(223, 47%, 23%) ;
+
+}
+.box-1 .col:nth-of-type(1) p:nth-of-type(2){
+    font-weight: bold;
+    color: hsl(224, 23%, 55%) ;
+
+}
+.pay,
+.order{
+    display: block;
+    
+}
+
+.pay{
+    background-color:  hsl(245, 75%, 52%)
+;
+    padding: 10px;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    
+   box-shadow: -3px 12px 10px 0px hsl(245, 75%, 52%, 0.342);
+   transition: 0.3s; 
+}
+    .pay:hover{
+        box-shadow: none;
+        background-color: hsl(245, 99%, 67%);
+    }
+
+.order{
+   margin: 30px; 
+   padding-bottom: 40px;
+   color:hsl(224, 23%, 55%) ;
+   font-weight: bold;
+   text-decoration: none;
+}
+/*## Colors
+
+### Primary
+
+- Blue 100: hsl(225, 100%, 94%)
+- Blue 700: hsl(245, 75%, 52%)
+
+### Neutral
+
+- Blue 50: hsl(225, 100%, 98%)
+- Gray 600: hsl(224, 23%, 55%)
+- Blue 950: hsl(223, 47%, 23%)
